@@ -29,3 +29,5 @@ The meshes were made in Blender and exported as Wavefront OBJ with these setting
 - Forward Axis Y, Up Axis Z, so coordinates match Blender's viewport
 
 Turning off UVs and normals matters. Otherwise vertices can get split along seams on import, which breaks the neighbor structure the smoothing methods rely on.
+
+The 3D objects do not render in the Jupyter notebook. I recommend cloning the repo and running it locally until I figure something out.
